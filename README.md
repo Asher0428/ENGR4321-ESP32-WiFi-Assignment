@@ -21,7 +21,6 @@ ESP32
 │  
 └── Output Devices  
     ├── LCD Display (20x4)
-    └── Serial Monitor
 
 
 ## WiFi and API Interaction
