@@ -40,6 +40,7 @@ The extracted data (temperature, humidity, and weather description) is displayed
 ## Wokwi Simulation
 https://wokwi.com/projects/456604091746078721
 
+
 ## Source Code
 The ESP32 Arduino source code used in this project is included in this repository.
 
