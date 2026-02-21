@@ -30,7 +30,8 @@ The ESP32 connects to the Wokwi WiFi network using:
 - Password: (none)
 
 Once connected, the ESP32 sends an HTTP GET request to the OpenWeatherMap API including the city name, country code, units, and API key.
-http://api.openweathermap.org/data/2.5/weather?q=San%20Antonio,US&appid=API_KEY&units=imperial
+Example request: http://api.openweathermap.org/data/2.5/weather?q=San%20Antonio,US&appid=API_KEY&units=imperial
+(API_KEY is replaced with a placeholder for security purposes.)
 The API key is required for authentication and allows the ESP32 to access real-time weather data.
 
 The response is received in JSON format and parsed using the Arduino_JSON library. 
