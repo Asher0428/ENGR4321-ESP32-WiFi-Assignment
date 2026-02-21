@@ -12,15 +12,15 @@ This project fulfills the assignment requirements including WiFi communication, 
 ## System Block Diagram
 
 ESP32  
-│  
-├── WiFi Connection → OpenWeatherMap API  
-│  
-├── Input Devices  
-│   ├── Button 1: Change City  
-│   └── Button 2: Refresh Weather  
-│  
-└── Output Devices  
-    ├── LCD Display (20x4)
+
+WiFi Connection → OpenWeatherMap API  
+ 
+Input Devices  
+- Button 1: Change City  
+- Button 2: Refresh Weather  
+
+Output Devices  
+- LCD Display (20x4)
 
 
 ## WiFi and API Interaction
